@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-800 text-white">
+    <!-- navbar -->
+    <nav
+      class="flex items-center justify-between bg-gradient-to-tr from-transparent to-gray-700 shadow px-5 py-5 sticky top-0 z-50"
+    >
+      <!-- logo -->
+      <div class="flex items-center justify-center space-x-3">
+        <img
+          src="./img/commerce.png"
+          alt=""
+          class="w-20 h-20 md:w-10 md:h-10 object-cover rounded-full border-fuchsia-400 border-2 hover:border-red-300 transition duration-500 cursor-pointer"
+        />
+        <h1
+          class="hidden md:inline md:text-3xl font-semibold text-gray-300 cursor-pointer hover:text-red-100 transition duration-200"
+        >
+          MySite
+        </h1>
+      </div>
+      <!-- items -->
+      <ul class="flex items-center space-x-4 flex-wrap">
+        <li class="bg-gray-500 px-2 py-1 rounded">
+          <a
+            href="#"
+            class="text-lg hover:text-gray-100 transition duration-500"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-lg hover:bg-gray-500 hover:py-2 hover:px-2 hover:rounded transition duration-500"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-lg hover:bg-gray-500 hover:py-2 hover:px-2 hover:rounded transition duration-500"
+            >cards</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-lg hover:bg-gray-500 hover:py-2 hover:px-2 hover:rounded transition duration-500"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- showcase -->
+    <header class="relative">
+      <img
+        class="w-full h-screen object-cover object-center"
+        src="./img/ai.png"
+        alt=""
+      />
+      <div
+        class="absolute top-0 left-0 bottom-3 flex items-center justify-center space-x-3 flex-col mx-auto"
+      >
+        <h2
+          class="text-3xl px-2 md:text-6xl font-semibold font-mono text-fuchsia-400"
+        >
+          Best screen capture software
+        </h2>
+        <p class="text-lg md:text-2xl text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ea
+          expedita amet aspernatur aperiam at sequi voluptate! Dicta, illo
+          eveniet quos voluptatem harum, error perspiciatis id consectetur
+          magnam, libero suscipit.
+        </p>
+        <button
+          type="button"
+          class="bg-indigo-800 py-2 px-3 rounded-lg skew-y-3 block mt-5 hover:skew-y-0 transition duration-300"
+        >
+          Read More
+        </button>
+      </div>
+    </header>
+
+    <!-- cards -->
+    <section class="py-10">
+      <h1 class="text-5xl text-center capitalize mb-5">business cards</h1>
+      <div class="grid w-full md:grid-cols-2 lg:grid-cols-3 gap-5 p-5">
+        <!-- card one -->
+        <div class="shadow-md shadow-red-100 rounded group">
+          <!-- image -->
+          <img
+            class="w-100 object-cover rounded-md "
+            src="./img/possibility.png"
+            alt=""
+          />
+          <!-- content -->
+          <div class="px-3 my-2">
+            <h2 class="text-2xl font-bold text-gray-300">
+              screen capture software
+            </h2>
+            <p class="text-lg font-extralight text-gray-300 font-mono">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+              tempore natus ad alias incidunt optio atque ratione magni
+              inventore ut mollitia quas earum odio perferendis minima rerum
+              debitis temporibus nisi laborum, ab quibusdam autem maxime eius
+              placeat.
+            </p>
+          </div>
+          <!-- social icon -->
+          <div
+            class="flex items-center justify-between py-3 mr-3 cursor-pointer"
+          >
+            <div class="flex items-center space-x-3 ml-2">
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/facebook-2020-2-1.svg"
+                alt=""
+              />
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/whatsapp-symbol.svg"
+                alt=""
+              />
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/instagram-2-1.svg"
+                alt=""
+              />
+            </div>
+            <img
+              class="w-100 object-cover rounded-md hover:scale-105 transition duration-500"
+              src="./img/people.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="shadow-md shadow-red-100 rounded">
+          <!-- image -->
+          <img
+            class="w-100 object-cover rounded-md"
+            src="./img/possibility.png"
+            alt=""
+          />
+          <!-- content -->
+          <div class="px-3 my-2">
+            <h2 class="text-2xl font-bold text-gray-300">
+              screen capture software
+            </h2>
+            <p class="text-lg font-extralight text-gray-300 font-mono">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+              tempore natus ad alias incidunt optio atque ratione magni
+              inventore ut mollitia quas earum odio perferendis minima rerum
+              debitis temporibus nisi laborum, ab quibusdam autem maxime eius
+              placeat.
+            </p>
+          </div>
+          <!-- social icon -->
+          <div
+            class="flex items-center justify-between py-3 mr-3 cursor-pointer"
+          >
+            <div class="flex items-center space-x-3 ml-2">
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/facebook-2020-2-1.svg"
+                alt=""
+              />
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/whatsapp-symbol.svg"
+                alt=""
+              />
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/instagram-2-1.svg"
+                alt=""
+              />
+            </div>
+            <img
+              class="w-100 object-cover rounded-md hover:scale-105 transition duration-500"
+              src="./img/people.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="shadow-md shadow-red-100 rounded">
+          <!-- image -->
+          <img
+            class="w-100 object-cover rounded-md"
+            src="./img/possibility.png"
+            alt=""
+          />
+          <!-- content -->
+          <div class="px-3 my-2">
+            <h2 class="text-2xl font-bold text-gray-300">
+              screen capture software
+            </h2>
+            <p class="text-lg font-extralight text-gray-300 font-mono">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+              tempore natus ad alias incidunt optio atque ratione magni
+              inventore ut mollitia quas earum odio perferendis minima rerum
+              debitis temporibus nisi laborum, ab quibusdam autem maxime eius
+              placeat.
+            </p>
+          </div>
+          <!-- social icon -->
+          <div
+            class="flex items-center justify-between py-3 mr-3 cursor-pointer"
+          >
+            <div class="flex items-center space-x-3 ml-2">
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/facebook-2020-2-1.svg"
+                alt=""
+              />
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/whatsapp-symbol.svg"
+                alt=""
+              />
+              <img
+                class="w-9 h-9 object-cover hover:scale-105 transition duration-500"
+                src="./img/instagram-2-1.svg"
+                alt=""
+              />
+            </div>
+            <img
+              class="w-100 object-cover rounded-md hover:scale-105 transition duration-500"
+              src="./img/people.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- boxes -->
+    <section class="py-10 bg-gradient-to-tr from-gray-400 to-transparent max-w-7xl mx-auto px-5">
+      <h1 class="text-4xl text-center">Boxes</h1>
+    
+      <div class='flex flex-col md:flex-row items-center  gap-5 mt-5'>
+            <!-- box 1 -->
+        <div class='shadow shadow-sky-400 p-3 bg-gray-700 rounded  hover:translate-y-3 transform duration-300'>
+          <h2 class='text-3xl text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'> Box One</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste esse
+            totam dicta tempore nesciunt unde voluptatum, necessitatibus quod
+            temporibus at explicabo minus ea recusandae possimus obcaecati natus
+            excepturi dolores quam.
+          </p>
+        </div>
+            <!-- box 2 -->
+                 <div class='shadow shadow-sky-400 p-3 bg-gray-700 rounded  hover:translate-x-3 transform duration-300'>
+          <h2 class='text-3xl text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'> Box Tow</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste esse
+            totam dicta tempore nesciunt unde voluptatum, necessitatibus quod
+            temporibus at explicabo minus ea recusandae possimus obcaecati natus
+            excepturi dolores quam.
+          </p>
+        </div>
+ 
+      </div>
+    </section>
+
+    <!-- Brands -->
+    <section class='flex items-center justify-evenly flex-wrap mt-10 gap-5'>
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/go.png" alt="">
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/ruby.png" alt="">
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/python.png" alt="">
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/php.png" alt="">
+        <img  class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2'src="./img/node.png" alt="">
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/python.png" alt="">
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/php.png" alt="">
+        <img class=' rounded-full w-32 h-32 object-cover border-red-600 border-2 p-2' src="./img/node.png" alt="">
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer class='bg-gradient-to-bl from-slate-400 to-indigo-500 mt-10'>
+        <div class='p-2 '>
+            <p class='text-2xl text-center'>All rights reserved. &copy; 2022</p>
+        </div>
+    </footer>
+  </body>
+</html>
